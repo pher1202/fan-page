@@ -10,6 +10,8 @@ body {
     background-color: aqua;
 }
 
-.myParagraph {
+<style>
+      .myParagraph {
     color: purple;
 }
+    </style>
