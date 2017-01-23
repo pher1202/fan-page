@@ -1,17 +1,41 @@
 body {
     background-color: yellow;
-}
-
-body {
- color: red;   
+    color: red;
+    font-family: Helvetica Neue, Helveltica, Arial, sans-serif;
 }
 
 #content {
     background-color: aqua;
 }
 
-<style>
-      .myParagraph {
+.myParagraph {
     color: purple;
 }
-    </style>
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+}
+
+h1 {
+    font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif; 
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: Arial Narrow,Arial,sans-serif; 
+}
+
+ul {
+    list-style-type: lower-roman;
+}
+
+a {
+    font-size: 125%;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div {
+    background-image: url(images/duluth.jpeg);
+}
