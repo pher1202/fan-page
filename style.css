@@ -1,6 +1,6 @@
 body {
     background-color: yellow;
-    background-image: linear-gradient(to bottom, #FFFFFF, #00FF00);
+    background-image: linear-gradient(to bottom, #FFFFFF, #000000);
     color: red;
     font-family: Helvetica Neue, Helveltica, Arial, sans-serif;
     margin-left: auto;
@@ -18,12 +18,12 @@ body {
 }
 
 footer {
-    font-size: 75%;
-    font-style: italic;
-    margin-top: 10px;
     background-image: url(images/wifeS2000.jpg);
     background-position: 100% 10%;
     background-repeat: no-repeat;
+    font-size: 75%;
+    font-style: italic;
+    margin-top: 10px;
 }
 
 h1 {
@@ -44,7 +44,7 @@ h1 {
 
 h2 {
     font-family: Arial Narrow, Arial, sans-serif;
-    margin-top: 10px;
+    margin-top: 100px;
 }
 
 ul {
@@ -54,6 +54,9 @@ ul {
 a {
     font-size: 125%;
     font-weight: bold;
+    float: right;
+    margin: 0 0 5px 5px;
+    border: 1px solid #000000;
     text-decoration: none;
 }
 
@@ -64,4 +67,10 @@ div {
 main {
     margin-top: 10px;
     padding: 10px;
+}
+
+header {
+    position: fixed;
+    position: absolute;
+    width: 100%;
 }
