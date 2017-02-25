@@ -1,24 +1,18 @@
 body {
-    background-color: yellow;
-    background-image: linear-gradient(to bottom, #FFFFFF, #000000);
-    color: red;
+    background-color: black;
+    background-image: linear-gradient(to top, #FFFFFF, #0000FF);
+    color: #ffA500;
     font-family: Helvetica Neue, Helveltica, Arial, sans-serif;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
     width: 80%;
-}
-
-#content {
-    background-color: aqua;
-}
-
-.myParagraph {
-    color: purple;
+    align-content: center;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 footer {
-    background-image: url(images/wifeS2000.jpg);
+    background-image: url(images/favicon-32x32.png);
     background-position: 100% 10%;
     background-repeat: no-repeat;
     font-size: 75%;
@@ -27,7 +21,7 @@ footer {
 }
 
 h1 {
-    background-color: yellow;
+    background-color: #FFA500;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -45,23 +39,21 @@ h1 {
 h2 {
     font-family: Arial Narrow, Arial, sans-serif;
     margin-top: 100px;
+    color: #FFA500;
+    text-shadow: 1px 1px 1px #000000;
 }
 
-ul {
-    list-style-type: lower-roman;
+li {
+    list-style-type: disc;
 }
 
 a {
     font-size: 125%;
     font-weight: bold;
-    float: right;
     margin: 0 0 5px 5px;
-    border: 1px solid #000000;
     text-decoration: none;
-}
-
-div {
-    background-image: url(images/duluth.jpeg);
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 main {
@@ -73,4 +65,66 @@ header {
     position: fixed;
     position: absolute;
     width: 100%;
+}
+
+.headerTextColor {
+    color: #0000FF;
+}
+
+ul {
+    list-style-type: none;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav a {
+    color: #FFA500;
+    text-shadow: 1px 1px 1px #000000;
+    text-decoration: none;
+    font-size: 175%
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #008000;
+}
+
+nav a:active {
+    text-decoration: none;
+    color: #FFFF00;
+}
+
+@media only screen and (max-width: 768px) {
+    h1,
+    h2 {
+        font-size: 100%;
+    }
+    nav,
+    nav ul,
+    nav li {
+        padding: 0;
+    }
+    nav li {
+        display: block;
+    }
+    nav a {
+        display: block;
+        padding: 0.5em 0;
+        border-bottom: 2px ridge #00005D;
+    }
 }
