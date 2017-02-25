@@ -109,11 +109,7 @@ nav a:active {
     color: #FFFF00;
 }
 
-@media only screen and (max-width: 768px) {
-    h1,
-    h2 {
-        font-size: 100%;
-    }
+@media only screen and (max-width: 480px) {
     nav,
     nav ul,
     nav li {
@@ -124,7 +120,22 @@ nav a:active {
     }
     nav a {
         display: block;
-        padding: 0.5em 0;
+        padding: 0.5em;
         border-bottom: 2px ridge #00005D;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    nav,
+    nav ul,
+    nav li {
+        padding: 0;
+    }
+    nav li {
+        display: block;
+    }
+    nav a {
+        display: block;
+        padding: 0.5%;
     }
 }
